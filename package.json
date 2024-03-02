@@ -1,0 +1,26 @@
+{
+  "name": "demofindpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "trilok",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-unless": "^2.1.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.4",
+    "mongoose-unique-validator": "^4.0.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "randomstring": "^1.3.0"
+  }
+}
